@@ -1,0 +1,22 @@
+Software Quality Assurance Project - Requirements
+
+1. Unit Testing
+- TypeScript, Vitest 5.1.1 (managed through package.json)
+
+2. API Testing
+- pytest==9.2.0 & requests
+
+3. Integration Testing
+- Uses pytest & requests (listed above)
+
+4. Selenium Testing
+- selenium==4.53.0
+
+5. Playwright Testing
+- playwright
+
+6. Non-Functional Testing
+- NFT-01, NFT-02, NFT-03: Google Chrome Lighthouse 13.6.0
+- NFT-04, NFT-05: Python, Playwright, Chromium
+- NFT-05 also uses Navigation Timing API and Chrome DevTools Protocol (CDP)
+- Python dependencies are listed above.
