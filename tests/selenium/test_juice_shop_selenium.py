@@ -215,6 +215,7 @@ def test_registration_and_login_workflow(driver):
             (By.ID, "securityQuestionControl")
         )
     )
+    driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", security_question)
     security_question.click()
 
     wait.until(
